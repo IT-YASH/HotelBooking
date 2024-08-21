@@ -3,7 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelBooking", "HotelBooking\HotelBooking.csproj", "{4AD7C8FD-95BB-447A-81B9-26FF10E7E9B0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhiteLagoon.Web", "HotelBooking\WhiteLagoon.Web.csproj", "{4AD7C8FD-95BB-447A-81B9-26FF10E7E9B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhiteLagoon.Domain", "WhiteLagoon.Domain\WhiteLagoon.Domain.csproj", "{9A4B32F7-55C9-4681-BDA0-67A4E385D964}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhiteLagoon.Application", "WhiteLagoon.Application\WhiteLagoon.Application.csproj", "{076551CE-46A2-48EC-8974-D534221A56BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WhiteLagoon.Infrastructure", "WhiteLagoon.Infrastructure\WhiteLagoon.Infrastructure.csproj", "{B9D2288D-D091-4940-9BB9-F00FF093C8E4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +21,18 @@ Global
 		{4AD7C8FD-95BB-447A-81B9-26FF10E7E9B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4AD7C8FD-95BB-447A-81B9-26FF10E7E9B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4AD7C8FD-95BB-447A-81B9-26FF10E7E9B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A4B32F7-55C9-4681-BDA0-67A4E385D964}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A4B32F7-55C9-4681-BDA0-67A4E385D964}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A4B32F7-55C9-4681-BDA0-67A4E385D964}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A4B32F7-55C9-4681-BDA0-67A4E385D964}.Release|Any CPU.Build.0 = Release|Any CPU
+		{076551CE-46A2-48EC-8974-D534221A56BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{076551CE-46A2-48EC-8974-D534221A56BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{076551CE-46A2-48EC-8974-D534221A56BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{076551CE-46A2-48EC-8974-D534221A56BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9D2288D-D091-4940-9BB9-F00FF093C8E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9D2288D-D091-4940-9BB9-F00FF093C8E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9D2288D-D091-4940-9BB9-F00FF093C8E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9D2288D-D091-4940-9BB9-F00FF093C8E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
