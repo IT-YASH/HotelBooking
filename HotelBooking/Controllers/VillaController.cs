@@ -12,10 +12,9 @@ namespace WhiteLagoon.Web.Controllers
         {
             _db = db;
         } 
-        
         public IActionResult Index()
         {
-            var villas = _db.Villas.ToList();
+            var villas = _db.Villas.ToList();  
             return View(villas);
         }
         public IActionResult Create()
@@ -37,9 +36,9 @@ namespace WhiteLagoon.Web.Controllers
             }
             return View(obj);
         }
-        public IActionResult Update(int villaId)
+        public IActionResult Update(int villaID)
         {
-            Villa? obj = _db.Villas.FirstOrDefault(u=>u.Id==villaId);
+            Villa? obj = _db.Villas.FirstOrDefault(u=>u.Id == villaID);
            // Villa? obj = _db.Villas.Find(villaId);
            // var villalist = _db.Villas.Where(u=>u.Price > 50 && u.Occupancy > 0).FirstOrDefault();
             if(obj == null)
@@ -48,6 +47,7 @@ namespace WhiteLagoon.Web.Controllers
             }
             return View(obj);
         }
+
         [HttpPost]
         public IActionResult Update(Villa obj)
         {
